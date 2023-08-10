@@ -1,0 +1,43 @@
+.a{
+  grid-area: a;
+}
+.b{
+  grid-area: b;
+}
+.c{
+  grid-area: c;
+}
+.d{
+  grid-area: d;
+}
+.e{
+  grid-area: e;
+}
+.f{
+  grid-area: f;
+}
+
+
+body{
+  margin: 0;
+  height: 97vh;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "a a a a"
+    "b b b f"
+    "c d e f";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows:  1fr 1fr 1fr;
+}
+
+div{
+  border: 1px solid #a4d1fd;
+  border-radius: 2px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3d4fc;
+  font-size: 50px;
+}
+

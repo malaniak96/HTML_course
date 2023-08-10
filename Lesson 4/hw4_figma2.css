@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 45px;
+}
+
+.header{
+  width: 100vw;
+  height: 23vh;
+  background-color: #8D8484;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  width: 100vw;
+  height: 23vh;
+  background-color: #BDBDBD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content1{
+  width: 75vw;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #776969;
+}
+
+.content2{
+  width: 75vw;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #643030;
+}
+
+.content3{
+  width: 75vw;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #441818;
+}
+
+.spam1{
+  width: 25vw;
+  height: 27vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #937575;
+}
+
+.spam2{
+  width: 25vw;
+  height: 27vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #644C4C;
+}

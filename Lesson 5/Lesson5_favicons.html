@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <style>
+    /*div li{
+      color: #5c1a6b;
+    }
+    div ul li{
+      color: #A74848;
+    }
+    .list li{
+      color: lawngreen;
+    }
+     */
+    /*
+    тег - 16
+    клас - 105
+    ід - 1006
+     */
+
+/*
+    div>ul>li{
+      color: #e726d4;
+    }
+*/
+/*------------------------------------------------*/
+
+   ul>li:nth-child(3n){
+     color: crimson;
+   }
+    ul>li:first-letter{
+      color: #1417dc;
+      font-size: 30px;
+    }
+    li::after{
+      content: "!!!";
+    }
+
+    li{
+      list-style: none ;
+    }
+    li::before{
+      content:"" ;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-image: url("istockphoto-1146906219-612x612.jpg");
+      background-size: cover;
+      margin-right: 15px;
+    }
+
+
+  </style>
+
+
+
+
+
+</head>
+<body>
+
+<div class="list">
+  <ul class="redlist">
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum dolor.</li>
+
+  </ul>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores minus neque, officiis omnis sunt tempore? Assumenda mollitia necessitatibus ratione ut. Beatae consequuntur ipsam maiores nihil nobis tempora velit voluptate?</p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+@media screen and (min-width: 200px) and (max-width: 380px){
+  header, footer, section{
+    height: 20vh;
+  }
+  div{
+    flex-direction: column;
+  }
+  section{
+    width: 100vw;
+  }
+main{
+  background-color: yellow;
+  display: flex;
+  height: 20vh;
+  width: 100vw;
+}
+}

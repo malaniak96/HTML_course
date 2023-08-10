@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+
+  <style>
+    .red {
+      width: 100vw;
+      height: 100vh;
+      background-color: #b3d4fc;
+    }
+    .green {
+      width: 100vw;
+      height: 100vh;
+      background-color: green;
+    }
+    .yellow {
+      width: 100vw;
+      height: 100vh;
+      background-color: #F1F99E;
+    }
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+  </style>
+
+
+</head>
+<body>
+
+<div>
+  <div id="red">
+    <a href="#green">Down</a>
+  </div>
+  <div id="green">
+    <a href="#red">UP</a>
+    <a href="#yellow">Down</a>
+  </div>
+  <div id="yellow">
+    <a href="#green">UP</a>
+  </div>
+</div>
+
+</body>
+</html>

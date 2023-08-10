@@ -1,0 +1,86 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Verdana, serif;
+  border: thin solid rgba(154, 154, 154, 0.38);
+  width: 35vw;
+  height: 85vh;
+  border-radius: 5px;
+}
+
+header{
+  padding-bottom: 30px;
+}
+.img{
+  width: 20vw;
+}
+input{
+  width: 25.5vw;
+  font-size: 20px;
+  border: thin solid rgba(154, 154, 154, 0.38);
+  padding: 13px;
+}
+button{
+  width: 27vw;
+  background-color: rgba(0, 111, 255, 0.47);
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 13px;
+}
+
+.abo {
+  color: rgba(72, 72, 72, 0.69);
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.facebook{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: bold;
+  color: #445c8f;
+  padding-top: 8px;
+}
+
+.pass{
+  font-size: 16px;
+  color: #445c8f;
+  font-weight: normal;
+}
+
+footer{
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, serif;
+  border: thin solid rgba(154, 154, 154, 0.38);
+  width: 35vw;
+  height: 10vh;
+  margin-top: 12px;
+  border-radius: 5px;
+}
+#register{
+  padding-left: 8px;
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0, 111, 255, 0.47);
+}

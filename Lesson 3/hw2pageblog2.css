@@ -1,0 +1,56 @@
+header {
+  height: 19.64vh;
+  background: #5351511A;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
+  padding-right: 50px;
+}
+
+.active_link {
+  color: #3D6FB4;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-size: 35px;
+  margin: 50px;
+  color: #7A7070;
+}
+
+h1{
+  width: 27vw;
+  height: 10.1vh;
+  color: #000000;
+  font-family: 'Jost', sans-serif;
+  font-size: 70px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+
+article {
+  height: 98.2vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+p {
+  width: 88.96vw;
+  height: 20.9vh;
+  font-family: 'Jost', sans-serif;
+  font-size: 35px;
+  line-height: 50.58px;
+  text-align: left;
+  color: #000000;
+}
+
+body{
+  margin: 0;
+}

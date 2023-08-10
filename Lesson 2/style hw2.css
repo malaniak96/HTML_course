@@ -1,0 +1,30 @@
+.main{
+  background-color: mediumblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+}
+
+.size{
+  width: 200px;
+  height: 200px;
+}
+
+
+.b1, .b2, .b3, .b4, .b5, .b6{
+  background-color: yellow;
+  transition: 1s;
+}
+
+.size:hover{
+  border-radius: 70%;
+  transition: 1s;
+  background-image: url("https://images.unsplash.com/photo-1587027066597-e9b5dea8cbf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

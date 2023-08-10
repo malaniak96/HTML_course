@@ -1,0 +1,21 @@
+@media screen and (max-width: 415px){
+  body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .header{
+    height: 20vh;
+    margin: 30px;
+  }
+  .left{
+    height: 60vh;
+    margin: 30px;
+  }
+  .right{
+    height: 20vh;
+    margin: 30px;
+  }
+
+}

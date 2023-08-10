@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+
+.header{
+  width: 100vw;
+  height: 17.05vh;
+  background-color: #9B6F6F;
+}
+
+.footer{
+  width: 100vw;
+  height: 17.05vh;
+  background-color: #524B4B;
+}
+.center1{
+  display: flex;
+  flex-direction: row;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+}
+.section1{
+  background-color: #D9D9D9;
+  height: 20.9vh;
+  width: 33.3vw;
+}
+.section2{
+  background-color: #AA9898;
+  height: 20.9vh;
+  width: 33.3vw;
+}
+.section3{
+  background-color: #C5BBBB;
+  height: 24.1vh;
+  width: 33.3vw;
+}
+
+.boxes2{
+  display: flex;
+  flex-direction: row;
+}
+
+.box1{
+  width: 33.3vw;
+  height: 65.9vh;
+  background-color: #8A8484;
+}
+.box2{
+  width: 33.4vw;
+  height: 65.9vh;
+  background-color: #C0B3B3;
+}

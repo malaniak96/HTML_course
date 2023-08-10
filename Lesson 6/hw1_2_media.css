@@ -1,0 +1,23 @@
+@media screen and (max-width: 415px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+  }
+
+  body {
+    display: grid;
+    grid-template-areas:
+    "a a a"
+    "b b b"
+    "c d e"
+    "f f f";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+  }
+
+}
+
+

@@ -1,0 +1,32 @@
+.header{
+  grid-area: header;
+}
+.left{
+  grid-area: left;
+}
+.right{
+  grid-area: right;
+}
+
+body{
+  margin: 0;
+  height: 97vh;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header header"
+    "left right";
+  grid-template-columns: 5fr 2fr ;
+  grid-template-rows: 2fr 5fr;
+}
+
+div{
+  border: 1px solid #a4d1fd;
+  border-radius: 2px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3d4fc;
+  font-size: 50px;
+}
+

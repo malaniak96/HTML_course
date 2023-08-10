@@ -1,0 +1,43 @@
+div{
+  background-color: coral;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.size {
+  width: 200px;
+  height: 200px;
+}
+
+.main {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+p{
+  font-size: 20px;
+}
+
+
+.A{
+  font-family: 'Rubik Pixels', cursive;
+}
+
+.B{
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+.C{
+  font-family: 'Dancing Script', cursive;
+}
+
+.D{
+  font-family: 'Fjalla One', sans-serif;
+}
+.E{
+  font-family: 'Indie Flower', cursive;
+}
